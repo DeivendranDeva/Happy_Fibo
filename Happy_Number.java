@@ -18,10 +18,10 @@ public class Happy_Number
 	   num=num/10;     //ite1-->23/10=2, ite2-->2/10=0, ite3-->1, ite4-->0, ite5-->1
 	   a=(sum*sum)+a;  //ite1-->(3*3)+0=9, ite2-->(2*2)+9=13, ite3-->9, ite4-->10, ite5-->
 	  }
-	   if(a>9)  //
+	   if(a>9)  
 	   {
-	    num=a;  //
-	    a=0;    //
+	    num=a;  
+	    a=0;    
 	   }
     }
 	System.out.println(a);
